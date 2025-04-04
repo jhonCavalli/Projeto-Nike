@@ -50,5 +50,17 @@ p {
 
 }
 
+.caixa-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+}
+
+.caixa-texto {
+    max-width: 500px;
+    
+}
+
 
 
