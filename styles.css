@@ -1,12 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #ccee66;
     color: white;
     padding: 20px 160px;
     height: 100vh;
     font-family: "noto Sans", sans-serif;
     overflow: hidden;
+
+
+}
+
+body::before {
+    content:'';
+    background: #090909;
+    position: absolute;
 }
 
 .logo {
@@ -59,7 +67,7 @@ p {
 
 .caixa-texto {
     max-width: 500px;
-    
+
 }
 
 
