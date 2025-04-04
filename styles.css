@@ -5,10 +5,8 @@ body {
     color: white;
     padding: 20px 160px;
     height: 100vh;
-    font-family: "noto Sans", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     overflow: hidden;
-
-
 }
 
 body::before {
@@ -24,28 +22,34 @@ body::before {
 
 body::after {
     content:'Nike';
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 250px;
+    font-weight: bold;
+
+
+
+
 }
 
 .logo {
     width: 80px;
-
 }
 
 h4 {
     font-size: 30px;
-
 }
 
 h1{
     font-size: 80px;
-
 }
 
 p {
     font-size: 17px;
     margin-bottom: 40px;
-
 }
 
 .botao-carrinho {
