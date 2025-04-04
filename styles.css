@@ -46,6 +46,8 @@ p {
 
 .img-tenis {
     width: 800px;
+    transform: rotate(-25deg);;
+
 }
 
 
