@@ -87,5 +87,28 @@ p {
 
 }
 
+.caixa-botoes {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.botao {
+     width: 80px;
+    height: 80px;
+}
+
+.verde {
+   background: #ccee66;
+}
+
+.azul {
+    background: #58cced;
+}
+
+.rosa {
+    background: #ff9eb5;
+}
 
 
