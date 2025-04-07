@@ -1,3 +1,4 @@
-function MudarVisual()
+function mudarVisual(){
+    console.log("mudarVisual");
+}
 
-console.log("MudarVisual");
