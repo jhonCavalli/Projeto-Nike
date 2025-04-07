@@ -1,1 +1,3 @@
-function MundarVisual()
+function MudarVisual()
+
+console.log("MudarVisual");
