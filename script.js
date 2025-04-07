@@ -1,11 +1,12 @@
-let body = document.querySelector("body");
-let tenis = document.querySelector(".img-tenis");
+let body = document.querySelector("body")
+let tenis = document.querySelector(".imagem-tenis")
 // document = html
-// querySelector = pegador / selecionador de elementos
+// querySelector = pegador / selecionador
 
-function mudarVisual(cor, img){
-
-    body.style.background = "cor";
-    tenis.src = img;
+function mudarVisual(cor, imagem){
+    
+    body.style.background = cor
+    tenis.src = imagem
 }
+
 
