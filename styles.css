@@ -71,6 +71,7 @@ p {
     width: 800px;
     transform: rotate(-25deg);
     filter: drop-shadow( 30px 45px 40px #000000);
+    transition: 1s;
 
 }
 

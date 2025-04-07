@@ -9,7 +9,9 @@ function mudarVisual(cor, imagem) {
     body.style.background = cor
     tenis.src = imagem
 
+    setTimeout(() => {
+        tenis.src =
     tenis.classList.remove("troca-efeito")
-}
+}, 500);
 
 
